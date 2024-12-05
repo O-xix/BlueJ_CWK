@@ -1,0 +1,10 @@
+public class EscapeCharacters {
+    // Examples of how to use escape characters
+    public static void main(String[] args) {
+        System.out.print("Name\t\tAge\tHeight\n");
+        System.out.println("Coach Colton\t19\t4'3\"");
+        System.out.println("Mickey Mouse\t143\t2'2\"");
+        System.out.println("\n\n\n");
+        System.out.println("\\\\\"");
+    }
+}

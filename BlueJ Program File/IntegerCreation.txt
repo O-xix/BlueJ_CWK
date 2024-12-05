@@ -1,0 +1,6 @@
+public class IntegerCreation {
+    public static void main(String[] args) {
+        int bigNum = 999;
+        System.out.println(bigNum);
+    }
+}

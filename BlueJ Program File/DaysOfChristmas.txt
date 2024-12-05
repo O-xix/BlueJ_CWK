@@ -1,0 +1,59 @@
+// Example for homework, prints the first three verses of 
+// the days of Christmas song!
+public class DaysOfChristmas {
+    public static void main(String[] args) {
+        firstVerse();
+        secondVerse();
+        thirdVerse();
+    }
+    public static void trueLove() {
+        System.out.println(" day of Christmas");
+        System.out.println("My true love gave to me");
+    }
+    public static void partridge() {
+        System.out.println("And a partridge in a pear tree.\n");
+    }
+    public static void turtleDoves() {
+        System.out.println("Two turtle doves");
+    }
+    public static void frenchHens() {
+        System.out.println("Three french hens");
+    }
+    public static void firstVerse() {
+        System.out.print("On the first");
+        trueLove();
+        System.out.println("A partridge in a pear tree.\n");
+    }
+    public static void secondVerse() {
+        System.out.print("On the second");
+        trueLove();
+        turtleDoves();
+        partridge();
+    }
+    public static void thirdVerse() {
+        System.out.print("On the third");
+        trueLove();
+        frenchHens();
+        turtleDoves();
+        partridge();
+    }
+}
+
+// Expected output:
+
+/*
+On the first day of Christmas
+My true love gave to me
+A partridge in a pear tree.
+
+On the second day of Christmas
+My true love gave to me
+Two turtle doves
+And a partridge in a pear tree.
+
+On the third day of Christmas
+My true love gave to me
+Three French hens,
+Two turtle doves
+And a partridge in a pear tree.
+*/
